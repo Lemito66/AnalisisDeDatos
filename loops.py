@@ -33,10 +33,17 @@ nums_neg = []
 for i in range(len(nums)):
     if i % 2 == 0 and nums[i] < 0:
         nums_neg.append(nums[i])
-        
+            
 print(nums_neg)
 
 # Número menores a 50
 
 for number in range(50):
     print(number)
+#with enumerate c:\Users\lemit\OneDrive - Pontificia Universidad Católica del Ecuador\Documentos\Octavo Semestre Emill\Aplicaciones Difusas\IntroPandas.ipynb 
+for i, number in enumerate(nums):
+    if i % 2 == 0 and number < 0:
+        nums_neg.append(number)
+        
+        
+print(nums_neg)
